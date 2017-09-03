@@ -8,7 +8,7 @@ const QuestionPage = (props) => {
   let topMessage = '';
 
   if (props.currentTweetIndex === 0) {
-    topMessage = 'Click the real tweet!!';
+    topMessage = 'Click the real tweet';
   } else if (props.currentTweetIndex === props.totalTweetCount - 1) {
     topMessage = 'Last one!';
   } else {
