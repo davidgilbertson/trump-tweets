@@ -20,12 +20,12 @@ const AnswerPage = (props) => {
   return (
     <div>
       <div className="answer-page__nav-wrapper">
-        {!!props.goToPrevPage &&
-        <button
-          className="answer-page__nav-button answer-page__nav-button--prev"
-          onClick={props.goToPrevPage}
-        >〈 Prev</button>
-        }
+        {/*{!!props.goToPrevPage &&*/}
+        {/*<button*/}
+          {/*className="answer-page__nav-button answer-page__nav-button--prev"*/}
+          {/*onClick={props.goToPrevPage}*/}
+        {/*>〈 Prev</button>*/}
+        {/*}*/}
 
         {rightWrongMessage}
 
