@@ -6,6 +6,42 @@
 export const TWEETS = [
   [
     {
+      text: 'Amazing how the haters & losers keep tweeting the name “F**kface Von Clownstick” like they are so original & like no one else is doing it...',
+      url: 'https://twitter.com/realDonaldTrump/status/330359969813770242',
+    },
+    {
+      text: 'Everyone keeps calling me stupid but they don\'t know that I am the greatest and I will make america great again. Go team!',
+    },
+    {
+      text: 'You know the haters are losers calling me Dumbo McDumb face aren\'t going to be laughing at this Dumbo when president',
+    },
+  ],
+  [
+    {
+      text: 'Healthy young child goes to doctor, gets pumped with massive shot of many vaccines, doesn\'t feel good and changes - AUTISM. Many such cases!',
+      url: 'https://twitter.com/realDonaldTrump/status/449525268529815552',
+    },
+    {
+      text: 'Healthy young child move to house under wind turbines. 6 months later, cancer. Happens all the time! JOBS FOR COAL!',
+    },
+    {
+      text: 'Healthy young child goes to Saudi Arabia, made to wear burka. Doesn\'t feel good - no vitamin D. MUSLIMS!',
+    },
+  ],
+  [
+    {
+      text: 'Sorry losers and haters, but my I.Q. is one of the highest - and you all know it! Please don\'t feel so stupid or insecure,it\'s not your fault',
+      url: 'https://twitter.com/realDonaldTrump/status/332308211321425920',
+    },
+    {
+      text: 'I have the highest IQ. My IQ is so high - it is one of the highest and you losers and haters are stupid and insucre because of low IQ!',
+    },
+    {
+      text: 'You losers can\'t even count as high as my IQ. Stupid and insecure! But it\'s not your fault',
+    },
+  ],
+  [
+    {
       text: 'How can a dummy dope like Harry Hurt, who wrote a failed book about me but doesn\'t know me or anything about me, be on TV discussing Trump?',
       url: 'https://twitter.com/realdonaldtrump/status/626508731073867776',
     },
@@ -42,18 +78,6 @@ export const TWEETS = [
   ],
   [
     {
-      text: 'Healthy young child goes to doctor, gets pumped with massive shot of many vaccines, doesn\'t feel good and changes - AUTISM. Many such cases!',
-      url: 'https://twitter.com/realDonaldTrump/status/449525268529815552',
-    },
-    {
-      text: 'Healthy young child move to house under wind turbines. 6 months later, cancer. Happens all the time! JOBS FOR COAL!',
-    },
-    {
-      text: 'Healthy young child goes to Saudi Arabia, made to wear burka. Doesn\'t feel good - no vitamin D. MUSLIMS!',
-    },
-  ],
-  [
-    {
       text: 'Arianna Huffington is unattractive both inside and out. I fully understand why her former husband left her for a man - he made a good decision.',
       url: 'https://twitter.com/realDonaldTrump/status/240462265680289792',
     },
@@ -62,18 +86,6 @@ export const TWEETS = [
     },
     {
       text: 'Arianna Huffington looks and is too old to be Govenor of California! Not to be trusted!',
-    },
-  ],
-  [
-    {
-      text: 'Sorry losers and haters, but my I.Q. is one of the highest - and you all know it! Please don\'t feel so stupid or insecure,it\'s not your fault',
-      url: 'https://twitter.com/realDonaldTrump/status/332308211321425920',
-    },
-    {
-      text: 'I have the highest IQ. My IQ is so high - it is one of the highest and you losers and haters are stupid and insucre because of low IQ!',
-    },
-    {
-      text: 'You losers can\'t even count as high as my IQ. Stupid and insecure! But it\'s not your fault',
     },
   ],
   [
@@ -230,18 +242,6 @@ export const TWEETS = [
     },
     {
       text: 'Maybe he has done nothing but would you let Anthony Weiner babysit your young daughter?',
-    },
-  ],
-  [
-    {
-      text: 'Amazing how the haters & losers keep tweeting the name “F**kface Von Clownstick” like they are so original & like no one else is doing it...',
-      url: 'https://twitter.com/realDonaldTrump/status/330359969813770242',
-    },
-    {
-      text: 'Everyone keeps calling me stupid but they don\'t know that I am the greatest and I will make america great again. Go team!',
-    },
-    {
-      text: 'You know the haters are losers calling me Dumbo McDumb face aren\'t going to be laughing at this Dumbo when president',
     },
   ],
 ];
