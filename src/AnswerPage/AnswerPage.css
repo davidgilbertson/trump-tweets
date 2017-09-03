@@ -1,0 +1,42 @@
+.answer-page__nav-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.answer-page__wrong-message,
+.answer-page__correct-message {
+  font-size: 26px;
+}
+
+.answer-page__wrong-message {
+  color: firebrick;
+}
+
+.answer-page__correct-message {
+  color: seagreen;
+}
+
+.answer-page__nav-button {
+  position: absolute;
+  top: 10px;
+  padding: 10px; /* fat tap area */
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  color: darkslategrey;
+}
+
+.answer-page__nav-button--prev {
+  left: 0;
+}
+
+.answer-page__nav-button--next {
+  right: 0;
+}

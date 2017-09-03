@@ -1,0 +1,8 @@
+.question-page__top-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  height: 60px;
+  font-size: 20px;
+}
