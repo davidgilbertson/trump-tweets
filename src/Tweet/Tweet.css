@@ -9,6 +9,7 @@
   background: white;
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .tweet:hover,
