@@ -41,6 +41,15 @@ const FinishPage = (props) => {
 
         Share your score
       </a>
+
+      <a
+        className="finish-page__github-link"
+        href="https://github.com/davidgilbertson/trump-tweets"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Want to contribute? See me on GitHub!
+      </a>
     </div>
   );
 };
