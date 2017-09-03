@@ -25,5 +25,5 @@
 
 .tweet--wrong {
   border-color: firebrick;
-  box-shadow: 0 0 0 2px firebrick;
+  box-shadow: 0 0 0 1px firebrick;
 }
