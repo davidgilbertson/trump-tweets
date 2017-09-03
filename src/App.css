@@ -1,0 +1,148 @@
+.app__header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
+  background: steelblue;
+  color: white;
+}
+
+.app__title {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.app__share {
+  font-size: 16px;
+  margin-left: auto;
+  color: white;
+}
+
+.app__body {
+  /*padding: 20px 0;*/
+  text-align: center;
+}
+
+.tweet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90px;
+  width: 85vw;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border: 1px solid grey;
+  background: white;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tweet:hover,
+.tweet:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tweet--real {
+  border-color: seagreen;
+  box-shadow: inset 0 0 0 2px seagreen, 0 0 12px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tweet--wrong {
+  border-color: firebrick;
+  box-shadow: 0 0 0 2px firebrick;
+}
+
+.question-page__top-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*font-size: 18px;*/
+  padding: 0 10vw;
+  height: 60px;
+  /*height: 30px;*/
+  /*margin-bottom: 20px;*/
+}
+
+.answer-page__nav-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  font-size: 20px;
+  padding: 0 10vw;
+  /*margin-bottom: 20px;*/
+}
+
+.answer-page__wrong-message,
+.answer-page__correct-message {
+  font-size: 26px;
+}
+
+.answer-page__wrong-message {
+  color: firebrick;
+}
+
+.answer-page__correct-message {
+  color: seagreen;
+}
+
+.answer-page__nav-button {
+  position: absolute;
+  top: 10px;
+  padding: 10px; /* fat tap area */
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  color: darkslategrey;
+}
+
+.answer-page__nav-button--prev {
+ left: 0;
+}
+
+.answer-page__nav-button--next {
+  right: 0;
+}
+
+.finish-page {
+  padding-top: 20px;
+}
+
+.finish-page__score-finish {
+  margin-bottom: 80px;
+  font-size: 40px;
+  color: darkslategrey;
+  font-weight: lighter;
+}
+
+.finish-page__score-intro {
+  color: grey;
+}
+
+.finish-page__score {
+  margin: -20px 0 60px;
+  font-size: 100px;
+  font-weight: lighter;
+  color: darkslategrey;
+}
+
+.finish-page__share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: darkslategray;
+}
+
+.finish-page__share:visited,
+.finish-page__share:hover {
+  color: darkslategray;
+}
+
+.finish-page__share-logo {
+  fill: #1da1f2;
+}
