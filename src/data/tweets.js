@@ -94,10 +94,10 @@ export const TWEETS = [
       url: 'https://twitter.com/realDonaldTrump/status/203568571148800001',
     },
     {
-      text: 'Let\'s take a closer look at that history. Barack Obama was described as being "born in Hawaii." - not a real American!',
+      text: 'Let\'s learn a bit about history. Barack Obama says "born in Hawaii" - not a real American!',
     },
     {
-      text: 'Barack Obama not a real America? Where was he born, "Obama" is Muslim!',
+      text: 'Barack Obama not a real American? Where was he born, "Obama" is Muslim!',
     },
   ],
   [
@@ -106,10 +106,10 @@ export const TWEETS = [
       url: 'https://twitter.com/realDonaldTrump/status/555367040907612160',
     },
     {
-      text: 'If the idiots who drove the planes into the world trade center had aimed further south, well politics would be a lot cleaner!',
+      text: 'Many businesses in the World Trade Center suffered that day. American business was interuppted, and lives!',
     },
     {
-      text: 'Obamacare kills more people than all the terrorist attacks in America. I will repeal and replace and stop the attacks!',
+      text: 'Obamacare kills more people than all terrorist attacks in America. I will repeal and replace and stop the attacks!',
     },
   ],
   [
@@ -118,10 +118,10 @@ export const TWEETS = [
       url: 'https://twitter.com/realDonaldTrump/status/516382177798680576',
     },
     {
-      text: 'Haters and losers be messed up but I say so with great fondness. They are my friends and we will MAKE AMERICA GREAT AGAIN!',
+      text: 'Haters and losers are messed up but I say so with great fondness. They are my friends and we will MAKE AMERICA GREAT AGAIN!',
     },
     {
-      text: 'Haters and losers are haters of America. They wan\'t MORE immigration and foreigners taking our jobs!',
+      text: 'Haters and losers are haters of America. They wan\'t MORE immigration and foreigners taking our jobs! But we are all friends.',
     },
   ],
   [
@@ -169,7 +169,7 @@ export const TWEETS = [
       text: 'Obama does nothing but play golf and is the DUMBEST. I will repeal and replace Obamacare!',
     },
     {
-      text: 'Obama is not a real man and does not want to make america great again! But who does? I do!',
+      text: 'Obama is not a real man and does not want to make America great again! But who does? I do!',
     },
   ],
   [
