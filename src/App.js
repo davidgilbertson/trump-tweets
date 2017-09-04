@@ -42,7 +42,9 @@ class App extends Component {
       ...state,
       page: direction ? PAGES.QUESTION : PAGES.FINISH, // if no direction is set, go to the last page. Dodgy.
       currentTweetIndex: state.currentTweetIndex + direction,
-    }));
+    }), () => {
+      window.ga('send', 'pageview', `/${this.state.currentTweetIndex + 1}`);
+    });
   }
 
   render() {
