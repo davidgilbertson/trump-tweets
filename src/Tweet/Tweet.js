@@ -11,6 +11,10 @@ const Tweet = (props) => {
     { 'tweet--wrong': props.isWrongGuess },
   );
 
+  const badge = props.isRealTweet
+    ? <span className="tweet__twitter-badge">Show on Twitter</span>
+    : null;
+
   return (
     <a
       className={className}
@@ -20,6 +24,8 @@ const Tweet = (props) => {
       onClick={props.onClick}
     >
       {props.tweet.text}
+
+      {badge}
     </a>
   );
 };
