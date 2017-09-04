@@ -12,7 +12,7 @@ const Tweet = (props) => {
   );
 
   const badge = props.isRealTweet
-    ? <span className="tweet__twitter-badge">Show on Twitter</span>
+    ? <span className="tweet__twitter-badge">View on Twitter</span>
     : null;
 
   return (
