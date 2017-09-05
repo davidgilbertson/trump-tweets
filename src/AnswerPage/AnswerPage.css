@@ -49,6 +49,7 @@
 
 
 @keyframes emit {
-  from { box-shadow: 0 0 0 0 rgba(80 ,80 ,80 , 0.6) }
-  to { box-shadow: 0 0 0 10px rgba(80 ,80 ,80 , 0) }
+  from { box-shadow: 0 0 0 0 rgba(80 ,80 ,80 , 0.6) } /* no size, dark */
+  /* in between it is getting bigger and fading out */
+  to { box-shadow: 0 0 0 10px rgba(80 ,80 ,80 , 0) } /* big, invisible */
 }
