@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 
 import './AnswerPage.css';
 import Tweet from '../Tweet/Tweet';
@@ -17,6 +18,12 @@ const AnswerPage = (props) => {
     ? <p className="answer-page__wrong-message">Wrong!</p>
     : <p className="answer-page__correct-message">Correct!</p>;
 
+    const nextButtonClassName = classnames(
+      'answer-page__nav-button',
+      'answer-page__nav-button--next',
+      { 'answer-page__nav-button--pulse': props.currentTweetIndex === 0 },
+    );
+
   return (
     <div>
       <div className="answer-page__nav-wrapper">
@@ -30,7 +37,7 @@ const AnswerPage = (props) => {
         {rightWrongMessage}
 
         <button
-          className="answer-page__nav-button answer-page__nav-button--next"
+          className={nextButtonClassName}
           onClick={props.goToNextPage}
         >{props.nextButtonText} 〉</button>
       </div>

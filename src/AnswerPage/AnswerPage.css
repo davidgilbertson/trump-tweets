@@ -24,13 +24,14 @@
 .answer-page__nav-button {
   position: absolute;
   top: 20px;
-  padding: 10px 0; /* fat tap area */
+  padding: 10px; /* fat tap area */
   font-size: 16px;
   border: none;
   outline: none;
   background: none;
   text-transform: uppercase;
   color: darkslategrey;
+  cursor: pointer;
 }
 
 .answer-page__nav-button--prev {
@@ -39,4 +40,15 @@
 
 .answer-page__nav-button--next {
   right: 0;
+}
+
+.answer-page__nav-button--pulse {
+  border-radius: 5px;
+  animation: emit 1s 2s infinite;
+}
+
+
+@keyframes emit {
+  from { box-shadow: 0 0 0 0 rgba(80 ,80 ,80 , 0.6) }
+  to { box-shadow: 0 0 0 10px rgba(80 ,80 ,80 , 0) }
 }
